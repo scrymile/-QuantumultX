@@ -3,6 +3,10 @@
 # > 更新时间  2022.11.05
 # > */  
 
+# > 中国联通
+HOST-SUFFIX,m1.ad.10010.com, reject
+# > 铁路12306
+HOST, ad.12306.cn, REJECT
 # > 全民K歌
 HOST-SUFFIX,gdc.kg.qq.com, reject
 # > 光大银行阳光惠生活
@@ -1162,8 +1166,6 @@ host-suffix, bayescom.com, reject
 host-suffix, atrace.chelaile.net.cn, reject
 host, logs.chelaile.net.cn, reject
 host, ad.chelaile.net.cn, reject
-# > 铁路12306
-HOST, ad.12306.cn, REJECT
 # > 两步路
 HOST-SUFFIX, admobile.top, REJECT
 # > 抖音
